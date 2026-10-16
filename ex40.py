@@ -1,3 +1,3 @@
-#Exemplo — Número no intervalo 
+#Exemplo — Bilheteria da Festa do Pinhão (desafio final)  
 # Aluno: Maria Eduarda Branco Gracia de Jesus
-# Objetivo: Leia um número inteiro e informe se ele está entre 1 e 100, incluindo o 1 e o 100. 
+# Objetivo:Simule a venda de um ingresso para a Festa do Pinhão (valores fictícios). O ingresso inteiro custa R$ 40.00. 

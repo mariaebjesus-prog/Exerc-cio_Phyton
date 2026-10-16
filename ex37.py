@@ -1,3 +1,32 @@
-#Exemplo — Número no intervalo 
+#Exemplo — Três números em ordem crescente 
 # Aluno: Maria Eduarda Branco Gracia de Jesus
-# Objetivo: Leia um número inteiro e informe se ele está entre 1 e 100, incluindo o 1 e o 100. 
+# Objetivo: Leia três números diferentes e mostre-os em ordem crescente. Não use listas nem funções prontas de ordenação: resolva apenas com se / senao se / senao.
+
+n1 = float(input("Digite o primeiro número: "))
+n2 = float(input("Digite o segundo número: "))
+n3 = float(input("Digite o terceiro número: "))
+
+if n1 <= n2 and n1 <= n3:
+    print(n1)
+    if n2 <= n3:
+        print(n2)
+        print(n3)
+    else:
+        print(n3)
+        print(n2)
+elif n2 <= n1 and n2 <= n3:
+    print(n2)
+    if n1 <= n3:
+        print(n1)
+        print(n3)
+    else:
+        print(n3)
+        print(n1)
+else:
+    print(n3)
+    if n1 <= n2:
+        print(n1)
+        print(n2)
+    else:
+        print(n2)
+        print(n1)
